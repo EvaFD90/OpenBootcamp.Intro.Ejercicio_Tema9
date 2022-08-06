@@ -12,15 +12,15 @@ public class inheritance {
         employee.setPhoneNumber("888888888");
         employee.setSalary(1300);
 
-        System.out.println(client.getName());
-        System.out.println(client.getAge());
-        System.out.println(client.getPhoneNumber());
-        System.out.println(client.getCredit());
+        System.out.println("Client Name: " + client.getName());
+        System.out.println("Client Age: " + client.getAge());
+        System.out.println("Client Phone number: " + client.getPhoneNumber());
+        System.out.println("Client Credit: " + client.getCredit());
 
-        System.out.println(employee.getName());
-        System.out.println(employee.getAge());
-        System.out.println(employee.getPhoneNumber());
-        System.out.println(employee.getSalary());
+        System.out.println("Employee Name: " + employee.getName());
+        System.out.println("Employee Age: " + employee.getAge());
+        System.out.println("Employee Phone Number: " + employee.getPhoneNumber());
+        System.out.println("Employee Salary: " + employee.getSalary());
 
     }
 }
